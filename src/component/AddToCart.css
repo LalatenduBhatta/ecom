@@ -1,0 +1,17 @@
+.add_cart_btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.btn_active {
+  opacity: 1 !important;
+}
+.btn_check
+{
+    text-align:center;
+     font-size:12px; 
+     color:white;
+     position: relative;
+     top:-4px
+}

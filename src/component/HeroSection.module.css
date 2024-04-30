@@ -1,0 +1,22 @@
+.contianer
+{
+    max-width: 120rem;
+    background-color: green;
+    margin:0 auto;
+     
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+    
+}
+.col{
+      width:400px;  
+     background-color: yellow;
+}
+.col img {
+    width:300px;
+}

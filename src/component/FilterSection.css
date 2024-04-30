@@ -1,0 +1,21 @@
+.filter_active
+{
+    color: white;
+    background-color:black;
+}
+.filter_btn_active {
+    opacity: 1 !important;
+  }
+  .filter_btn_check
+  {
+      text-align:center;
+       font-size:12px; 
+       color:white;
+       position: relative;
+       top:-4px
+  }
+  .filter_btn_link
+  {
+    color: blue !important;
+    text-decoration: underline;
+  }

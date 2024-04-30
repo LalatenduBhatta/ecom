@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>hello this side utsav kumar jha</h1>
+     <script>
+        let obj={
+            name:"utsav",
+            age:"34",
+            print:function(a,b,c)
+            {
+              console.log(a,b,c)
+              console.log('hello')
+            },
+            
+            
+        }
+         let print =()=>
+        {
+            console.log('i am utsav')
+            
+            console.log(this.age)
+        }
+        print.call(obj.print(3,4,5))
+     </script>
+</body>
+</html>
